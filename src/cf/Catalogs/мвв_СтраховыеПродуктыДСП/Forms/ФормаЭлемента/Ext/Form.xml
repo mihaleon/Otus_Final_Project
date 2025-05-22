@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Родитель" id="7">
+			<DataPath>Объект.Parent</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ВидПродукта" id="10">
+			<DataPath>Объект.ВидПродукта</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВидПродуктаКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ВидПродуктаРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Комментарий" id="13">
+			<DataPath>Объект.Комментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="НаименованиеПолное" id="16">
+			<DataPath>Объект.НаименованиеПолное</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="НаименованиеПолноеРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<CheckBoxField name="УпрощеннаяСистемаПоВводуДоговоров" id="19">
+			<DataPath>Объект.УпрощеннаяСистемаПоВводуДоговоров</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="УпрощеннаяСистемаПоВводуДоговоровКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="УпрощеннаяСистемаПоВводуДоговоровРасширеннаяПодсказка" id="21"/>
+		</CheckBoxField>
+		<CheckBoxField name="ВестиРасчетыЧерезПосредника" id="22">
+			<DataPath>Объект.ВестиРасчетыЧерезПосредника</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ВестиРасчетыЧерезПосредникаКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ВестиРасчетыЧерезПосредникаРасширеннаяПодсказка" id="24"/>
+		</CheckBoxField>
+		<InputField name="ДатаНачала" id="25">
+			<DataPath>Объект.ДатаНачала</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="ДатаОкончания" id="28">
+			<DataPath>Объект.ДатаОкончания</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="ОсновнаяВалютаВзаиморасчетов" id="31">
+			<DataPath>Объект.ОсновнаяВалютаВзаиморасчетов</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОсновнаяВалютаВзаиморасчетовКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ОсновнаяВалютаВзаиморасчетовРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="ОсновнойВариантВступленияДоговоровВСилу" id="34">
+			<DataPath>Объект.ОсновнойВариантВступленияДоговоровВСилу</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОсновнойВариантВступленияДоговоровВСилуКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="ОсновнойВариантВступленияДоговоровВСилуРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<CheckBoxField name="РазрешитьВводДоговоровСДатаНачалойРанееЗаключения" id="37">
+			<DataPath>Объект.РазрешитьВводДоговоровСДатаНачалойРанееЗаключения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="РазрешитьВводДоговоровСДатаНачалойРанееЗаключенияКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="РазрешитьВводДоговоровСДатаНачалойРанееЗаключенияРасширеннаяПодсказка" id="39"/>
+		</CheckBoxField>
+		<CheckBoxField name="РасчетыВУсловныхЕдиницах" id="40">
+			<DataPath>Объект.РасчетыВУсловныхЕдиницах</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="РасчетыВУсловныхЕдиницахКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="РасчетыВУсловныхЕдиницахРасширеннаяПодсказка" id="42"/>
+		</CheckBoxField>
+		<CheckBoxField name="УпрощеннаяСистемаПоВводуУбытков" id="43">
+			<DataPath>Объект.УпрощеннаяСистемаПоВводуУбытков</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="УпрощеннаяСистемаПоВводуУбытковКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="УпрощеннаяСистемаПоВводуУбытковРасширеннаяПодсказка" id="45"/>
+		</CheckBoxField>
+		<Table name="ВерсииПродукта" id="46">
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>ВерсииПродукта</DataPath>
+			<RowPictureDataPath>ВерсииПродукта.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="ВерсииПродуктаКонтекстноеМеню" id="47"/>
+			<AutoCommandBar name="ВерсииПродуктаКоманднаяПанель" id="48"/>
+			<ExtendedTooltip name="ВерсииПродуктаРасширеннаяПодсказка" id="49"/>
+			<SearchStringAddition name="ВерсииПродуктаСтрокаПоиска" id="50">
+				<AdditionSource>
+					<Item>ВерсииПродукта</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ВерсииПродуктаСтрокаПоискаКонтекстноеМеню" id="51"/>
+				<ExtendedTooltip name="ВерсииПродуктаСтрокаПоискаРасширеннаяПодсказка" id="52"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ВерсииПродуктаСостояниеПросмотра" id="53">
+				<AdditionSource>
+					<Item>ВерсииПродукта</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ВерсииПродуктаСостояниеПросмотраКонтекстноеМеню" id="54"/>
+				<ExtendedTooltip name="ВерсииПродуктаСостояниеПросмотраРасширеннаяПодсказка" id="55"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ВерсииПродуктаУправлениеПоиском" id="56">
+				<AdditionSource>
+					<Item>ВерсииПродукта</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ВерсииПродуктаУправлениеПоискомКонтекстноеМеню" id="57"/>
+				<ExtendedTooltip name="ВерсииПродуктаУправлениеПоискомРасширеннаяПодсказка" id="58"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ВерсииПродуктаКод" id="62">
+					<DataPath>ВерсииПродукта.Code</DataPath>
+					<ContextMenu name="ВерсииПродуктаКодКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="ВерсииПродуктаКодРасширеннаяПодсказка" id="64"/>
+				</LabelField>
+				<LabelField name="ВерсииПродуктаНаименование" id="59">
+					<DataPath>ВерсииПродукта.Description</DataPath>
+					<ContextMenu name="ВерсииПродуктаНаименованиеКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="ВерсииПродуктаНаименованиеРасширеннаяПодсказка" id="61"/>
+				</LabelField>
+				<LabelField name="ВерсииПродуктаВладелец" id="65">
+					<DataPath>ВерсииПродукта.Owner</DataPath>
+					<Visible>false</Visible>
+					<ContextMenu name="ВерсииПродуктаВладелецКонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="ВерсииПродуктаВладелецРасширеннаяПодсказка" id="67"/>
+				</LabelField>
+				<LabelField name="ВерсииПродуктаДатаНачала" id="74">
+					<DataPath>ВерсииПродукта.ДатаНачала</DataPath>
+					<ContextMenu name="ВерсииПродуктаДатаНачалаКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="ВерсииПродуктаДатаНачалаРасширеннаяПодсказка" id="76"/>
+				</LabelField>
+				<LabelField name="ВерсииПродуктаДатаОкончания" id="77">
+					<DataPath>ВерсииПродукта.ДатаОкончания</DataPath>
+					<ContextMenu name="ВерсииПродуктаДатаОкончанияКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="ВерсииПродуктаДатаОкончанияРасширеннаяПодсказка" id="79"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.мвв_СтраховыеПродуктыДСП</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ВерсииПродукта" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версии продукта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.мвв_ВерсииСтраховыхПродуктовДСП</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>

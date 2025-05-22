@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.19">
+	<Item id="484918d4-60b9-4b37-a97e-e310c8dbc8d6">
+		<Name>СпециальнаяТехника</Name>
+		<Code>000000006</Code>
+		<Description>Дорожные и специальные транспортные средства</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="33e0d151-f905-4b3d-bfd4-5e548142b1aa">
+		<Name>Инкассация</Name>
+		<Code>000000003</Code>
+		<Description>Инкассация</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b6837054-d1ee-46d1-9f3a-636750897d47">
+		<Name>Личная</Name>
+		<Code>000000001</Code>
+		<Description>Личная</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7f309a48-9330-4aa7-9397-500d6ebc4263">
+		<Name>СкораяПомощь</Name>
+		<Code>000000004</Code>
+		<Description>Скорая помощь</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f61942d1-1ee1-4359-8eb6-b3f29c73d91b">
+		<Name>Такси</Name>
+		<Code>000000005</Code>
+		<Description>Такси</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="56d15ef3-2c13-4634-aa37-008e8d370d5f">
+		<Name>УчебнаяЕзда</Name>
+		<Code>000000002</Code>
+		<Description>Учебная езда</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

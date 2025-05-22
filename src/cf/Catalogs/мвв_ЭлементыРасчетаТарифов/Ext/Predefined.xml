@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.19">
+	<Item id="f16fe8b0-9fc0-453e-b8f8-4bfafaea6645">
+		<Name>ЗК</Name>
+		<Code>700000000</Code>
+		<Description>Зеленная карта</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="b4ce15c7-e190-4e91-80dc-0361fde9fa10">
+				<Name>ЗК_КК</Name>
+				<Code>700000003</Code>
+				<Description>КК</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2957c875-4e10-4713-af51-d396f13474a2">
+				<Name>ЗК_КСС</Name>
+				<Code>700000002</Code>
+				<Description>КСС</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="aa2e4091-b072-40cc-a652-213d93440422">
+				<Name>ЗК_ТБ</Name>
+				<Code>700000001</Code>
+				<Description>ТБ</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="6a424a0e-89b7-47e7-a682-41feebfe3509">
+		<Name>ОСАГО</Name>
+		<Code>600000000</Code>
+		<Description>ОСАГО</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="d151e074-48cc-4700-8ee4-b4a466e501ff">
+				<Name>ОСАГО_КБМ</Name>
+				<Code>600000003</Code>
+				<Description>КБМ</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="6eb6bd55-6223-4147-8cc8-91e4d872aef4">
+				<Name>ОСАГО_КВС</Name>
+				<Code>600000005</Code>
+				<Description>КВС</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="d48730e0-de75-4acf-9b89-6d2a43121864">
+				<Name>ОСАГО_КМ</Name>
+				<Code>600000006</Code>
+				<Description>КМ</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="d82ad82a-39c0-497b-9ff8-0b12ef1fe843">
+				<Name>ОСАГО_КН</Name>
+				<Code>600000009</Code>
+				<Description>КН</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2b856d1b-4367-4dc4-a805-57977ba30fb1">
+				<Name>ОСАГО_КО</Name>
+				<Code>600000004</Code>
+				<Description>КО</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3a16f2ab-0f15-449e-bc42-a7314bdcf15b">
+				<Name>ОСАГО_КП</Name>
+				<Code>600000008</Code>
+				<Description>КП</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1e4f281a-d17f-4d5f-b101-ac257a279fbc">
+				<Name>ОСАГО_КС</Name>
+				<Code>600000007</Code>
+				<Description>КС</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="4fe47bab-36dc-4473-bcd2-cf2cb7cc11cf">
+				<Name>ОСАГО_КТ</Name>
+				<Code>600000002</Code>
+				<Description>КТ</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="95656008-9e4c-421f-90d4-d8dbff00f797">
+				<Name>ОСАГО_ТБ</Name>
+				<Code>600000001</Code>
+				<Description>ТБ</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

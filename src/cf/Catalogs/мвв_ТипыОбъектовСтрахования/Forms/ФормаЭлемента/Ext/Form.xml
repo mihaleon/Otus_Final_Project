@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ВидТипаОбъекта" id="7">
+			<DataPath>Объект.ВидТипаОбъекта</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВидТипаОбъектаКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ВидТипаОбъектаРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ФормированиеНаименованияОбъекта" id="10">
+			<DataPath>Объект.ФормированиеНаименованияОбъекта</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ФормированиеНаименованияОбъектаКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ФормированиеНаименованияОбъектаРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<Table name="РазделыСвойств" id="44">
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>РазделыСвойств</DataPath>
+			<RowPictureDataPath>РазделыСвойств.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="РазделыСвойствКонтекстноеМеню" id="45"/>
+			<AutoCommandBar name="РазделыСвойствКоманднаяПанель" id="46"/>
+			<ExtendedTooltip name="РазделыСвойствРасширеннаяПодсказка" id="47"/>
+			<SearchStringAddition name="РазделыСвойствСтрокаПоиска" id="48">
+				<AdditionSource>
+					<Item>РазделыСвойств</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РазделыСвойствСтрокаПоискаКонтекстноеМеню" id="49"/>
+				<ExtendedTooltip name="РазделыСвойствСтрокаПоискаРасширеннаяПодсказка" id="50"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="РазделыСвойствСостояниеПросмотра" id="51">
+				<AdditionSource>
+					<Item>РазделыСвойств</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РазделыСвойствСостояниеПросмотраКонтекстноеМеню" id="52"/>
+				<ExtendedTooltip name="РазделыСвойствСостояниеПросмотраРасширеннаяПодсказка" id="53"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="РазделыСвойствУправлениеПоиском" id="54">
+				<AdditionSource>
+					<Item>РазделыСвойств</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="РазделыСвойствУправлениеПоискомКонтекстноеМеню" id="55"/>
+				<ExtendedTooltip name="РазделыСвойствУправлениеПоискомРасширеннаяПодсказка" id="56"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="РазделыСвойств1Объект" id="57">
+					<DataPath>РазделыСвойств.Объект</DataPath>
+					<ContextMenu name="РазделыСвойств1ОбъектКонтекстноеМеню" id="58"/>
+					<ExtendedTooltip name="РазделыСвойств1ОбъектРасширеннаяПодсказка" id="59"/>
+				</LabelField>
+				<LabelField name="РазделыСвойств1Свойство" id="60">
+					<DataPath>РазделыСвойств.Свойство</DataPath>
+					<ContextMenu name="РазделыСвойств1СвойствоКонтекстноеМеню" id="61"/>
+					<ExtendedTooltip name="РазделыСвойств1СвойствоРасширеннаяПодсказка" id="62"/>
+				</LabelField>
+				<LabelField name="РазделыСвойств1Раздел" id="63">
+					<DataPath>РазделыСвойств.Раздел</DataPath>
+					<ContextMenu name="РазделыСвойств1РазделКонтекстноеМеню" id="64"/>
+					<ExtendedTooltip name="РазделыСвойств1РазделРасширеннаяПодсказка" id="65"/>
+				</LabelField>
+				<CheckBoxField name="РазделыСвойств1ОбязателенДляЗаполнения" id="66">
+					<DataPath>РазделыСвойств.ОбязателенДляЗаполнения</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="РазделыСвойств1ОбязателенДляЗаполненияКонтекстноеМеню" id="67"/>
+					<ExtendedTooltip name="РазделыСвойств1ОбязателенДляЗаполненияРасширеннаяПодсказка" id="68"/>
+				</CheckBoxField>
+				<LabelField name="РазделыСвойств1Порядок" id="69">
+					<DataPath>РазделыСвойств.Порядок</DataPath>
+					<ContextMenu name="РазделыСвойств1ПорядокКонтекстноеМеню" id="70"/>
+					<ExtendedTooltip name="РазделыСвойств1ПорядокРасширеннаяПодсказка" id="71"/>
+				</LabelField>
+				<LabelField name="РазделыСвойств1ПредставлениеЗаполнения" id="72">
+					<DataPath>РазделыСвойств.ПредставлениеЗаполнения</DataPath>
+					<ContextMenu name="РазделыСвойств1ПредставлениеЗаполненияКонтекстноеМеню" id="73"/>
+					<ExtendedTooltip name="РазделыСвойств1ПредставлениеЗаполненияРасширеннаяПодсказка" id="74"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.мвв_ТипыОбъектовСтрахования</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="РазделыСвойств" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разделы свойств</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.мвв_НазначенияСвойствОбъектов</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:left xsi:type="dcscor:Field">Объект</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.мвв_ВидыСтрахования.ПустаяСсылка</dcsset:right>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>

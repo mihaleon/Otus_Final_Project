@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормакнРассчитать" id="47">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.кнРассчитать</CommandName>
+				<ExtendedTooltip name="ФормакнРассчитатьРасширеннаяПодсказка" id="48"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Контрагент" id="7">
+			<DataPath>Объект.Контрагент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ВерсияПродукта" id="10">
+			<DataPath>Объект.ВерсияПродукта</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВерсияПродуктаКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ВерсияПродуктаРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<CheckBoxField name="РасчетВыполнен" id="13">
+			<DataPath>Объект.РасчетВыполнен</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="РасчетВыполненКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="РасчетВыполненРасширеннаяПодсказка" id="15"/>
+		</CheckBoxField>
+		<InputField name="ДействуетДо" id="16">
+			<DataPath>Объект.ДействуетДо</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДействуетДоКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ДействуетДоРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="СуммаПремии" id="19">
+			<DataPath>Объект.СуммаПремии</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СуммаПремииКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="СуммаПремииРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<Pages name="Группа1" id="74">
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="75"/>
+			<ChildItems>
+				<Page name="Группа2" id="76">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные для расчета</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="77"/>
+					<ChildItems>
+						<Table name="ДанныеДляРасчета" id="22">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ДанныеДляРасчета</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДанныеДляРасчетаКонтекстноеМеню" id="23"/>
+							<AutoCommandBar name="ДанныеДляРасчетаКоманднаяПанель" id="24">
+								<ChildItems>
+									<Button name="кнЗаполнитьСвойства" id="80">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.кнЗаполнитьСвойства</CommandName>
+										<ExtendedTooltip name="кнЗаполнитьСвойстваРасширеннаяПодсказка" id="81"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ДанныеДляРасчетаРасширеннаяПодсказка" id="25"/>
+							<SearchStringAddition name="ДанныеДляРасчетаСтрокаПоиска" id="26">
+								<AdditionSource>
+									<Item>ДанныеДляРасчета</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДанныеДляРасчетаСтрокаПоискаКонтекстноеМеню" id="27"/>
+								<ExtendedTooltip name="ДанныеДляРасчетаСтрокаПоискаРасширеннаяПодсказка" id="28"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДанныеДляРасчетаСостояниеПросмотра" id="29">
+								<AdditionSource>
+									<Item>ДанныеДляРасчета</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДанныеДляРасчетаСостояниеПросмотраКонтекстноеМеню" id="30"/>
+								<ExtendedTooltip name="ДанныеДляРасчетаСостояниеПросмотраРасширеннаяПодсказка" id="31"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДанныеДляРасчетаУправлениеПоиском" id="32">
+								<AdditionSource>
+									<Item>ДанныеДляРасчета</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДанныеДляРасчетаУправлениеПоискомКонтекстноеМеню" id="33"/>
+								<ExtendedTooltip name="ДанныеДляРасчетаУправлениеПоискомРасширеннаяПодсказка" id="34"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ДанныеДляРасчетаНомерСтроки" id="35">
+									<DataPath>Объект.ДанныеДляРасчета.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДанныеДляРасчетаНомерСтрокиКонтекстноеМеню" id="36"/>
+									<ExtendedTooltip name="ДанныеДляРасчетаНомерСтрокиРасширеннаяПодсказка" id="37"/>
+								</LabelField>
+								<InputField name="ДанныеДляРасчетаРаздел" id="38">
+									<DataPath>Объект.ДанныеДляРасчета.Раздел</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДанныеДляРасчетаРазделКонтекстноеМеню" id="39"/>
+									<ExtendedTooltip name="ДанныеДляРасчетаРазделРасширеннаяПодсказка" id="40"/>
+								</InputField>
+								<InputField name="ДанныеДляРасчетаСвйоство" id="41">
+									<DataPath>Объект.ДанныеДляРасчета.Свойство</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДанныеДляРасчетаСвйоствоКонтекстноеМеню" id="42"/>
+									<ExtendedTooltip name="ДанныеДляРасчетаСвйоствоРасширеннаяПодсказка" id="43"/>
+								</InputField>
+								<InputField name="ДанныеДляРасчетаЗначениеСвойства" id="44">
+									<DataPath>Объект.ДанныеДляРасчета.ЗначениеСвойства</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДанныеДляРасчетаЗначениеСвойстваКонтекстноеМеню" id="45"/>
+									<ExtendedTooltip name="ДанныеДляРасчетаЗначениеСвойстваРасширеннаяПодсказка" id="46"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Группа3" id="78">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Структура расчета</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="79"/>
+					<ChildItems>
+						<Table name="СтруктураРасчета" id="49">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.СтруктураРасчета</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СтруктураРасчетаКонтекстноеМеню" id="50"/>
+							<AutoCommandBar name="СтруктураРасчетаКоманднаяПанель" id="51"/>
+							<ExtendedTooltip name="СтруктураРасчетаРасширеннаяПодсказка" id="52"/>
+							<SearchStringAddition name="СтруктураРасчетаСтрокаПоиска" id="53">
+								<AdditionSource>
+									<Item>СтруктураРасчета</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СтруктураРасчетаСтрокаПоискаКонтекстноеМеню" id="54"/>
+								<ExtendedTooltip name="СтруктураРасчетаСтрокаПоискаРасширеннаяПодсказка" id="55"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СтруктураРасчетаСостояниеПросмотра" id="56">
+								<AdditionSource>
+									<Item>СтруктураРасчета</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СтруктураРасчетаСостояниеПросмотраКонтекстноеМеню" id="57"/>
+								<ExtendedTooltip name="СтруктураРасчетаСостояниеПросмотраРасширеннаяПодсказка" id="58"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СтруктураРасчетаУправлениеПоиском" id="59">
+								<AdditionSource>
+									<Item>СтруктураРасчета</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СтруктураРасчетаУправлениеПоискомКонтекстноеМеню" id="60"/>
+								<ExtendedTooltip name="СтруктураРасчетаУправлениеПоискомРасширеннаяПодсказка" id="61"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СтруктураРасчетаНомерСтроки" id="62">
+									<DataPath>Объект.СтруктураРасчета.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СтруктураРасчетаНомерСтрокиКонтекстноеМеню" id="63"/>
+									<ExtendedTooltip name="СтруктураРасчетаНомерСтрокиРасширеннаяПодсказка" id="64"/>
+								</LabelField>
+								<InputField name="СтруктураРасчетаКоэффициент" id="65">
+									<DataPath>Объект.СтруктураРасчета.Коэффициент</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СтруктураРасчетаКоэффициентКонтекстноеМеню" id="66"/>
+									<ExtendedTooltip name="СтруктураРасчетаКоэффициентРасширеннаяПодсказка" id="67"/>
+								</InputField>
+								<InputField name="СтруктураРасчетаЗначение" id="68">
+									<DataPath>Объект.СтруктураРасчета.Значение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СтруктураРасчетаЗначениеКонтекстноеМеню" id="69"/>
+									<ExtendedTooltip name="СтруктураРасчетаЗначениеРасширеннаяПодсказка" id="70"/>
+								</InputField>
+								<InputField name="СтруктураРасчетаОшибка" id="71">
+									<DataPath>Объект.СтруктураРасчета.Ошибка</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СтруктураРасчетаОшибкаКонтекстноеМеню" id="72"/>
+									<ExtendedTooltip name="СтруктураРасчетаОшибкаРасширеннаяПодсказка" id="73"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.мвв_ПредварительныйРасчет</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="кнРассчитать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кн рассчитать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>кнРассчитать</Action>
+		</Command>
+		<Command name="кнЗаполнитьСвойства" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить свойства</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кн заполнить свойства</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>кнЗаполнитьСвойства</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Subsystem uuid="aa891847-4003-4a48-8139-491be63f0dfe">
+		<Properties>
+			<Name>мвв_Настройки</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки программы</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.мвв_ВариантыВступленияВСилу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.мвв_ВариантыРасчетаКВ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.мвв_ВидыНастроекПродуктов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.мвв_ВидыСтраховыхПродуктов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.мвв_ВидыТиповОбъектовСтрахования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.мвв_ТипыФраншизы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_ВидыСтрахования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_КлассификаторВидовСтрахования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_ПравилаСтрахования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_КлассификаторУчетныхГрупп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_ТипыОбъектовСтрахования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.мвв_ВидыРазделовСвойств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.мвв_ЮрФизЛицо</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.мвв_ВидыДеятельностиПоСтрахованию</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.мвв_ТипыКонтактнойИнформации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_ВидыКонтактнойИнформации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.мвв_НазначениеСвойствОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_РазделыСвойствОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_ЗначенияСвойствОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.мвв_СвойстваОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.мвв_НазначенияСвойствОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_МаркиТранспортныхСредств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.мвв_КатегорииТранспортныхСредств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.мвв_ТипыТранспортныхСредств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_ЦелиИспользованияТранспортныхСредств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_СтраховыеПродуктыДСП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_ОбъектыСтрахования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_СтраховыеРиски</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_ВерсииСтраховыхПродуктовДСП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_РазделыСтруктурыТарифа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_ТаблицыСтруктурыТарифа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_ЭлементыРасчетаТарифов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.мвв_ТипыРасчетаТарифов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.мвв_ФормулыРасчетаТарифов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_Территории</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.мвв_СтатусыДоговора</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>
